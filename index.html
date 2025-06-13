@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jar of Feelings</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container" id="quiz">
+    <h2>How are you feeling today?</h2>
+    <div class="choices">
+      <button data-mood="happy">😊 Happy</button>
+      <button data-mood="sad">💙 Sad</button>
+      <button data-mood="lonely">🖤 Lonely</button>
+      <button data-mood="bored">🤎 Bored</button>
+      <button data-mood="unmotivated">🧡 Unmotivated</button>
+      <button data-mood="angry">❤️ Angry</button>
+      <button data-mood="anxious">💜 Anxious</button>
+    </div>
+  </div>
+
+  <div class="result-container hidden" id="result">
+    <div class="card" id="messageCard"></div>
+    <button id="again">Try Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
